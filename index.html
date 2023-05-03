@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="inp">
+        <input type="text" placeholder="Id" class="Id">
+        <input type="text" placeholder="Image" class="image">
+        <input type="text" placeholder="Email" class="Email">
+        <input type="text" placeholder="FullName" class="FullName">
+        <input type="text" placeholder="Age" class="Age">
+        <input type="text" placeholder="Phone" class="Phone">
+        <button class="btnAdd">Add</button>
+    </div>
+    <table border="1px">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>image</td>
+                <td>Email</td>
+                <td>FullName</td>
+                <td>Age</td>
+                <td>Phone</td>
+                <td>Buttons</td>
+            </tr>
+        </thead>
+        <tbody class="box">
+
+        </tbody>
+    </table>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Some text in the Modal..</p>
+          <input type="text" placeholder="Image" class="inpImgModal">
+          <input type="text" placeholder="Email" class="inpEmailModal">
+          <input type="text" placeholder="FullName" class="inpFullNameModal">
+          <input type="text" placeholder="Age" class="inpAgeModal">
+          <input type="text" placeholder="Phone" class="inpPhoneModal">
+          <button class="ok">Ok</button>
+        </div>
+      
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
